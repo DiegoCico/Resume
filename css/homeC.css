@@ -1,8 +1,47 @@
 
+body{
+  background: #e3e3e3;
+}
 
-h1{
-  font-size: xxx-large;
+.title {
+  font-size: xx-large;
   font-family: monospace;
   font-style: oblique;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 0; /* Remove the bottom margin */
+  text-align: center;
 }
+
+.subTitle {
+  color: #888888;
+  text-align: center;
+  font-family: monospace;
+  margin-top: -20px;
+}
+
+.typewriter{
+  position: relative;
+}
+.typewriter::after{
+  content: '|';
+  position: absolute;
+  right: 0;
+  color: red;
+  background-color: #e3e3e3;
+  width: 70%;
+  animation: typing 3s steps(14) alternate infinite,
+  line 1s infinite;
+}
+@keyframes typing{
+  to{
+    width: 0%;
+  }
+}
+@keyframes line {
+  50%{
+    color: transparent;
+  }
+}
+
+
+
