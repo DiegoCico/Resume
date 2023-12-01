@@ -21,6 +21,11 @@
   justify-content: center;
 }
 
+.aboutMe{
+  font-family: monospace;
+  margin-left: 25px;
+}
+
 body {
   margin: 0;
   padding: 0;
