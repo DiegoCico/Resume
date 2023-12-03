@@ -91,5 +91,23 @@ body {
   margin-right: 15px;
 }
 
+.animation-container {
+  position: relative;
+}
+
+.animate-up {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slide-up 1.75s ease-out forwards;
+}
+
+@keyframes slide-up {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 
 
