@@ -2,16 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Diego Cicotoste - Software Developer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Diego Cicotoste</title>
   <link rel="stylesheet" href="../css/homeC.css">
   <link rel="icon" type="image/png" href="../img/smallLogo.png">
-
-  <div class="title"> <h2 class="typewriter"> Diego Cicotoste </h2> </div>
 </head>
 <body>
 
+<header>
+  <div class="title"> <h2 class="typewriter"> Diego Cicotoste </h2> </div>
+</header>
+
 <div class="subTitle"> <h2 class="typewriter"> Software Developer </h2> </div>
 
+<script>
+  window.addEventListener('scroll', function() {
+    var header = document.querySelector("header");
+    var title = document.querySelector(".title h2");
+
+    header.classList.toggle('scrolled', window.scrollY > 50);
+    title.classList.toggle('scrolled', window.scrollY > 50);
+  });
+</script>
 
 <div class="photoTitle">
   <div class="image-container">
@@ -31,15 +45,19 @@
 </div>
 
 <div class="animate-up">
-<h3  class="aboutMe"> About Me </h3>
-<p class="aboutMe"> Hi, I am a current student at Northeastern University studying Computer Science. </p>
-<p class="aboutMe"> I started coding when I was in 8th grade, creating games on Unity using the language C# </p>
-<p class="aboutMe"> When I started High School I started doing some mobile develop competition at <strong> <a href="https://www.fbla.org/", style="color: black">FBLA</a> </strong>, was quilified to <strong> reginals</strong>, and was awarded <strong> 1st </strong> in states</p>
+  <h3 class="aboutMe"> About Me </h3>
+  <p class="aboutMe"> Hi, I am a current student at Northeastern University studying Computer Science. </p>
+  <p class="aboutMe"> I started coding when I was in 8th grade, creating games on Unity using the language C# </p>
+  <p class="aboutMe"> When I started High School I started doing some mobile develop competition at <strong> <a href="https://www.fbla.org/" style="color: black">FBLA</a> </strong>, was qualified to <strong> regionals</strong>, and was awarded <strong> 1st </strong> in states</p>
 </div>
 
-
 <center>
-<a class="archive" href="https://github.com/DiegoCico?tab=repositories"> Archive </a>
+  <a class="archive" href="https://github.com/DiegoCico?tab=repositories"> Archive </a>
 </center>
+
+<footer>
+  <p style="font-size: 10px"> © Diego Cicotoste</p>
+  <p style="font-size: 10px"> Open Source On Github</p>
+</footer>
 </body>
 </html>
