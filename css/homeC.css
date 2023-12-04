@@ -169,6 +169,17 @@ header.scrolled {
   }
 }
 
+/* Set initial opacity to 0 */
+.aboutMePhoto {
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Set the transition property for smooth fading */
+}
+
+/* Apply a class with JavaScript to trigger the animation */
+.fade-in {
+  opacity: 1;
+}
+
 /*RELATED COURSE*/
 .box{
   border: 2px dashed #888888;
