@@ -181,6 +181,11 @@ header.scrolled {
 }
 
 /*RELATED COURSE*/
+.rowBox{
+  display: flex;
+  justify-content: center;
+}
+
 .box{
   border: 2px dashed #888888;
   padding: 10px;
@@ -199,6 +204,7 @@ header.scrolled {
 
 .boxSubTitle{
   margin: 10px;
+  color: darkgrey;
   text-align: center;
   font-family: "Times New Roman";
   color: darkgrey;
