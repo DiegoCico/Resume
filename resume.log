@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 MAR 2025 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 MAR 2025 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -213,132 +213,31 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidthlast=\dimen158
 \titlewidthfirst=\dimen159
 )
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 106.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen160
-\Gin@req@width=\dimen161
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
-\c@tracingmulticols=\count287
-\mult@box=\box54
-\multicol@leftmargin=\dimen162
-\c@unbalance=\count288
-\c@collectmore=\count289
-\doublecol@number=\count290
-\multicoltolerance=\count291
-\multicolpretolerance=\count292
-\full@width=\dimen163
-\page@free=\dimen164
-\premulticols=\dimen165
-\postmulticols=\dimen166
-\multicolsep=\skip55
-\multicolbaselineskip=\skip56
-\partial@page=\box55
-\last@line=\box56
-\mc@boxedresult=\box57
-\maxbalancingoverflow=\dimen167
-\mult@rightbox=\box58
-\mult@grightbox=\box59
-\mult@firstbox=\box60
-\mult@gfirstbox=\box61
-\@tempa=\box62
-\@tempa=\box63
-\@tempa=\box64
-\@tempa=\box65
-\@tempa=\box66
-\@tempa=\box67
-\@tempa=\box68
-\@tempa=\box69
-\@tempa=\box70
-\@tempa=\box71
-\@tempa=\box72
-\@tempa=\box73
-\@tempa=\box74
-\@tempa=\box75
-\@tempa=\box76
-\@tempa=\box77
-\@tempa=\box78
-\@tempa=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\c@minrows=\count293
-\c@columnbadness=\count294
-\c@finalcolumnbadness=\count295
-\last@try=\dimen168
-\multicolovershoot=\dimen169
-\multicolundershoot=\dimen170
-\mult@nat@firstbox=\box98
-\colbreak@box=\box99
-\mc@col@check@num=\count296
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/helvet.sty
-Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
-)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen171
-\ar@mcellbox=\box100
-\extrarowheight=\dimen172
+\col@sep=\dimen160
+\ar@mcellbox=\box54
+\extrarowheight=\dimen161
 \NC@list=\toks23
-\extratabsurround=\skip57
-\backup@length=\skip58
-\ar@cellbox=\box101
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box55
 )
-\TX@col@width=\dimen173
-\TX@old@table=\dimen174
-\TX@old@col=\dimen175
-\TX@target=\dimen176
-\TX@delta=\dimen177
-\TX@cols=\count297
+\TX@col@width=\dimen162
+\TX@old@table=\dimen163
+\TX@old@col=\dimen164
+\TX@target=\dimen165
+\TX@delta=\dimen166
+\TX@cols=\count287
 \TX@ftn=\toks24
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/paralist/paralist.sty
-Package: paralist 2017/01/22 v2.7 Extended list environments
-\pltopsep=\skip59
-\plpartopsep=\skip60
-\plitemsep=\skip61
-\plparsep=\skip62
-\pl@lab=\toks25
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/bold-extra/bold-extra.sty
 Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 23
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 21
 .
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/t1ptm.fd
@@ -346,30 +245,30 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count298
-\l__pdf_internal_box=\box102
+\l__color_backend_stack_int=\count288
+\l__pdf_internal_box=\box56
 )
 (./resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -405,45 +304,38 @@ LaTeX Font Info:    ... okay on input line 23.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 21.
 (./resume.out) (./resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
 
-(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count299
-\scratchdimen=\dimen178
-\scratchbox=\box103
-\nofMPsegments=\count300
-\nofMParguments=\count301
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count302
-\MPscratchDim=\dimen179
-\MPnumerator=\count303
-\makeMPintoPDFobject=\count304
-\everyMPtoPDFconversion=\toks27
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
-(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
 5.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
+
+ []
+
+
 
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./resume.aux)
+al/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+
+[2] (./resume.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -452,20 +344,20 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10278 strings out of 473190
- 159359 string characters out of 5715801
- 574183 words of memory out of 5000000
- 33416 multiletter control sequences out of 15000+600000
- 577181 words of font info for 50 fonts, out of 8000000 for 9000
+ 9163 strings out of 473190
+ 142126 string characters out of 5715801
+ 558593 words of memory out of 5000000
+ 32338 multiletter control sequences out of 15000+600000
+ 578259 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,319b,430s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,253b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texliv
 e/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on resume.pdf (1 page, 51246 bytes).
+Output written on resume.pdf (2 pages, 50673 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
+ 37 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

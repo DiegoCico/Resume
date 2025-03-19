@@ -1,3 +1,3 @@
 # Resume
 
-[text](resume.pdf)
+![text](<Resume 3.2.pdf>)

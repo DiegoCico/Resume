@@ -4,85 +4,90 @@
 \usepackage{geometry}
 \geometry{top=0.5in, bottom=0.5in, left=0.5in, right=0.5in}
 \usepackage{enumitem}
+\setlist[itemize]{nosep, left=0pt}
 \usepackage{hyperref}
 \usepackage{titlesec}
-\usepackage{graphicx}
-\renewcommand{\rmdefault}{ptm} % Times New Roman
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{1.5pt}
-\pagestyle{empty}
-\usepackage{multicol}
-\usepackage{helvet}
 \usepackage{tabularx}
-\usepackage{paralist}
 \usepackage{bold-extra}
 
-\titleformat{\section}{\large\bfseries}{}{0em}{}
-\newcommand{\sectionline}{\noindent\rule{\textwidth}{0.6pt}}
+\renewcommand{\rmdefault}{ptm} % Times New Roman
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+
+% Section title format with a horizontal rule underneath
+\titleformat{\section}{\bfseries\large}{}{0em}{}[\titlerule]
 
 \begin{document}
 
+% -------------------- Header --------------------
 \begin{center}
-    {\LARGE \textbf{Diego Cicotoste}}\\
-    \textbf{\href{tel:305-988-8058}{305-988-8058} \textbar{} \href{mailto:cicotosted@gmail.com}{cicotosted@gmail.com} \textbar{} \href{https://www.diegocico.com}{www.diegocico.com} \textbar{} \href{https://www.linkedin.com/in/diego-cicotoste/}{linkedin.com/in/diego-cicotoste/}}
+    {\LARGE \textbf{Diego Cicotoste}}\\[0.5em]
+    \small \href{tel:305-988-8058}{305-988-8058} \textbar{} 
+    \href{mailto:cicotosted@gmail.com}{cicotosted@gmail.com} \textbar{} 
+    \href{https://www.diegocico.com}{diegocico.com} \textbar{} 
+    \href{https://www.linkedin.com/in/diego-cicotoste/}{linkedin.com/in/diego-cicotoste/}
 \end{center}
 
-\sectionline
+% -------------------- Education --------------------
+\section*{Education}
+\textbf{Northeastern University}, Boston, MA \hfill Sept 2023 -- Jun 2026\\
+B.S. in Computer Science \hfill \textit{Study Abroad: London}
 
-\section*{EDUCATION}
-\textbf{Northeastern University}, \textit{Boston, MA} \hfill \textbf{Sept 2023 – Jun 2026}\\
-\textbf{B.S. Computer Science}\\
-\textbullet\ Study Abroad: \textbf{London}
+% -------------------- Experience --------------------
+\section*{Experience}
+\textbf{Amazon} \hfill \textit{Software Development Engineering Intern (Incoming)}\\
+May 2025 -- Aug 2025\\[0.5em]
 
-\sectionline
+\textbf{Supply Trace} \hfill \textit{Data Engineer / Project Manager}\\
+Sept 2024 -- Present
+\begin{itemize}
+    \item Led a high-performance team of 12, ensuring timely completion of tasks.
+    \item Developed efficient algorithms to process and merge millions of data points monthly.
+    \item Assisted in rebuilding infrastructure for faster, safer data loading.
+\end{itemize}
 
-\section*{EXPERIENCE}
-\textbf{Amazon}, \textit{Incoming Software Development Engineering Intern} \hfill \textbf{May 2025 – Aug 2025}\\
-\textbullet\ \textbf{N/A}
+\textbf{Amazon} \hfill \textit{Software Development Engineering Intern}\\
+May 2024 -- Aug 2024
+\begin{itemize}
+    \item Processed data from over 2 million users via the Productiv API to enhance business insights.
+    \item Designed and deployed a TypeScript data pipeline, cutting processing time by 40\%.
+    \item Implemented data visualization on Amazon QuickSight, contributing to a \$10M cost reduction.
+\end{itemize}
 
-\textbf{Supply Trace}, \textit{Data Engineer/Project Manager} \hfill \textbf{Sept 2024 – Present}\\
-\textbullet\ Managed a high-performance team of \textbf{12}, ensuring tasks are up to date and all team members complete assignments effectively.\\
-\textbullet\ Developed \textbf{efficient algorithms} to process, organize, and merge \textbf{millions of data points} monthly.\\
-\textbullet\ Assisting in \textbf{rebuilding infrastructure} for \textbf{faster and safer} data loading.
+\textbf{Code Ninjas Aventura} \hfill \textit{Manager}\\
+Jun 2021 -- Aug 2023
+\begin{itemize}
+    \item Supervised 15 instructors, managing operations, scheduling, and training.
+    \item Generated \$30K+ monthly revenue, peaking at over \$70K during summer camps.
+\end{itemize}
 
-\textbf{Amazon}, \textit{Software Development Engineering Intern} \hfill \textbf{May 2024 – Aug 2024}\\
-\textbullet\ Extracted and processed data from \textbf{2+ million users} using Productiv API, enhancing data insights for business strategies.\\
-\textbullet\ Designed and deployed \textbf{1 data pipeline} using \textbf{TypeScript}, reducing data processing time by \textbf{40\%}.\\
-\textbullet\ Implemented \textbf{data visualization} on Amazon QuickSight, improving UI satisfaction and helping cut costs by \textbf{\$10 million}.
+% -------------------- Projects --------------------
+\section*{Projects}
+\begin{itemize}
+    \item \textbf{DYA}: Developed a full back-end using Firebase and JavaScript with integrated front-end support.
+    \item \textbf{AlgoVisualizer}: Created a Python application that interactively visualizes sorting algorithms.
+    \item \textbf{Predator and Prey Sim}: Built a Java simulation modeling dynamic interactions in an ecosystem.
+    \item \textbf{HouseFinder}: Developed a Python application on AWS EC2/S3 to track house listings, analyze prices, and generate weekly CSV reports with charts.
+\end{itemize}
 
-\textbf{Code Ninjas Aventura}, \textit{Manager} \hfill \textbf{Jun 2021 – Aug 2023}\\
-\textbullet\ Led a team of \textbf{15 instructors}, overseeing daily operations, scheduling, and training.\\
-\textbullet\ Delivered \textbf{\$30,000+} in revenue monthly, peaking at \textbf{\$70,000+} during summer camps.
+% -------------------- Community Involvement --------------------
+\section*{Community Involvement}
+\textbf{AFE Ambassador} \hfill \textit{Jan 2025 -- Present}\\
+Represent Amazon on student panels and organize events for the AFE Scholarship program.\\[0.5em]
 
-\sectionline
+\textbf{MMBank} \hfill \textit{Web Developer}\\
+Nov 2024 -- Jan 2025\\
+Designed and developed an engaging website for a leading bank in Brazil.\\[0.5em]
 
-\section*{PROJECTS}
-\begin{compactitem}
-\item \textbf{DYA}: Developed the entire \textbf{back-end} with \textbf{Firebase} and \textbf{JavaScript}, handling authentication and database management. Contributed to the \textbf{front-end} for seamless integration.
-\item \textbf{AlgoVisualizer}: Developed a \textbf{Python} application that visualizes \textbf{sorting algorithms} with dynamic, interactive controls to enhance user understanding.
-\item \textbf{Predator and Prey Sim}: \textbf{Java program} simulates interactions between \textbf{predator and prey} populations, providing a visually interactive ecosystem model.
-\item \textbf{HouseFinder}: A \textbf{Python application} using \textbf{AWS EC2 and S3} that allows users to \textbf{track house listings}, analyze prices, and receive \textbf{weekly CSV reports and charts}.
-\end{compactitem}
+\textbf{The Hope Box Club} \hfill \textit{Founder}\\
+Jun 2021 -- May 2023\\
+Founded a club dedicated to collecting toys and essential items for underprivileged children (target: 1,500 boxes/year).
 
-\sectionline
-
-\section*{COMMUNITY INVOLVEMENT}
-\textbf{AFE Ambassador}, \textit{Ambassador} \hfill \textbf{Jan 2025 – Present}\\
-\textbullet\ Represent Amazon on \textbf{student panels} and help organize events to support and promote the \textbf{AFE Scholarship program}.
-
-\textbf{MMBank}, \textit{Web Developer} \hfill \textbf{Nov 2024 – Jan 2025}\\
-\textbullet\ Designed and developed an \textbf{engaging and user-friendly website} for a \textbf{leading bank in Brazil}.
-
-\textbf{The Hope Box Club}, \textit{Founder} \hfill \textbf{Jun 2021 – May 2023}\\
-\textbullet\ Founded a club focused on \textbf{collecting toys and school/hygiene items} to support \textbf{underprivileged children}, with a goal of \textbf{1,500 boxes per year}.
-
-\sectionline
-
-\section*{SKILLS}
-\textbf{Technical:} Android Studio, IntelliJ, Flutter, VSCode, NetBeans, Xcode, PyCharm, AWS Console, Firebase, REST\\
-\textbf{Languages:} \textbf{Java, Kotlin, C\#, Python, Dart, HTML, CSS, Swift, TypeScript, MySQL, JavaScript, C++, React.js}\\
-\textbf{Interests:} \textbf{Snowboarding, Hackathons, Gym, Personal Projects, Hiking, Traveling, Meeting People}
-
-\sectionline
+% -------------------- Skills --------------------
+\section*{Skills}
+\textbf{Technical:} Android Studio, IntelliJ, Flutter, VSCode, NetBeans, Xcode, PyCharm, AWS Console, Firebase, REST\\[0.5em]
+\textbf{Languages:} Java, Kotlin, C\#, Python, Dart, HTML, CSS, Swift, TypeScript, MySQL, JavaScript, C++, React.js\\[0.5em]
+\textbf{Interests:} Snowboarding, Hackathons, Gym, Personal Projects, Hiking, Traveling, Networking
 
 \end{document}
